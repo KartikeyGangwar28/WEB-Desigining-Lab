@@ -229,3 +229,83 @@ justify-content: space-around;
     justify-content: center;
     align-items: center;
 } */
+
+/* css for registration page */
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f1e8;
+    margin: 0;
+    padding: 15px;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #5b3924;
+}
+
+.registration-container {
+    max-width: 450px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 8px 4px 0 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 9px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+input[type="submit"] {
+    background-color: #6b4226;
+    color: white;
+}
+
+input[type="reset"] {
+    background-color: #ddd;
+    color: #333;
+}
+
+input[type="submit"]:hover {
+    background-color: #4b2e19;
+}
+```
