@@ -9,7 +9,7 @@ body {
 
 h2 {
     text-align: center;
-    color: #5b3924;
+    color: #6b19bd;
 }
 
 table {
@@ -19,7 +19,7 @@ table {
 }
 
 th {
-    background-color: #6b4226;
+    background-color: #6b19bd;
     color: white;
     padding: 12px;
 }
@@ -42,7 +42,7 @@ img {
 }
 
 button {
-    background-color: #6b4226;
+    background-color: #6b19bd;
     color: white;
     border: none;
     padding: 8px 12px;
@@ -51,9 +51,16 @@ button {
 }
 
 button:hover {
-    background-color: #4b2e19;
+    background-color: #8007f9;
+    transform:scale(1.1);
 }
 
 tr:nth-child(even) {
     background-color: #faf7f2;
+}
+table img {
+width: 100px;
+height: 140px;
+object-fit: contain;
+display: block;
 }

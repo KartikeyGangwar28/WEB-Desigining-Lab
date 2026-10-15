@@ -191,12 +191,27 @@ button:hover {
 
     border: none;
 }
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    height: 40%;
+    border-radius: 6px;
+    border-color:#6b19bd ;
+    border-style: solid;
+    border-width: 1px;
+}
 .login-page-body{
     display: flex;
     flex-direction: column;
-   
+    background-color: rgb(222, 220, 220);
     vertical-align: top;
     align-items: center;
+    color: #6b19bd;
 }
 .user-input,.pass-input{
     display: flex;
@@ -207,27 +222,21 @@ button:hover {
     flex: 1;
     width: 200px;;
     border: solid;
+    border-width: 1px;
+    border-color: #6b19bd;
     border-radius: 2px;
     margin-left: 10px;
- 
+    padding: 10px;
 
 }
 .form-buttons{
 display: flex;
 justify-content: space-around;
 }
-/* registration page */
+
 .registration-container{
     display: flex;
     justify-content: center;
     align-items: center;
-   background-color: lightcoral;
+   background-color: #f5f1e8;
 }
-/* label{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
-
-/* css for registration page */

@@ -4,7 +4,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f1e8;
+    background-color: #e3e2e8;
     margin: 0;
     padding: 15px;
     color: #333;
@@ -12,7 +12,7 @@ body {
 
 h2 {
     text-align: center;
-    color: #5b3924;
+    color: #5e2fd4;
 }
 
 .registration-container {
@@ -20,14 +20,14 @@ h2 {
     margin: auto;
     padding: 20px;
     background-color: white;
-    border: 1px solid #ddd;
+    border: 1px solid #540aca;
     border-radius: 8px;
 }
 
 form label {
     display: block;
     margin-bottom: 15px;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 input[type="text"],
@@ -60,18 +60,21 @@ input[type="reset"] {
     border-radius: 4px;
     cursor: pointer;
     margin-right: 8px;
+    
 }
 
 input[type="submit"] {
-    background-color: #6b4226;
+    background-color: #6b19bd;
     color: white;
+    font-weight: bold;
 }
 
 input[type="reset"] {
-    background-color: #ddd;
-    color: #333;
+    background-color: #6b19bd;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 input[type="submit"]:hover {
-    background-color: #4b2e19;
+    background-color: #6b19bd;
 }
