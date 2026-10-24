@@ -1,11 +1,70 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Cart | CodeShelf</title>
+    <link rel="stylesheet" href="cart.css">
 </head>
 <body>
-    
+    <header>
+        <h2>CodeShelf</h2>
+        <nav>
+            <a href="index.html">Catalogue</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>My Cart</h1>
+
+        <div class="cart-container">
+
+            <section class="cart-items">
+                <h2>Books in Your Cart</h2>
+
+                <div class="cart-item">
+                    <div>
+                        <h3>Introduction to Algorithms</h3>
+                        <p>Thomas H. Cormen et al.</p>
+                    </div>
+                    <p class="price">₹899</p>
+                </div>
+
+                <div class="cart-item">
+                    <div>
+                        <h3>The C++ Programming Language</h3>
+                        <p>Bjarne Stroustrup</p>
+                    </div>
+                    <p class="price">₹749</p>
+                </div>
+            </section>
+
+            <aside class="order-summary">
+                <h2>Order Summary</h2>
+
+                <div class="summary-row">
+                    <span>Subtotal</span>
+                    <span>₹1648</span>
+                </div>
+
+                <div class="summary-row">
+                    <span>Delivery</span>
+                    <span>₹40</span>
+                </div>
+
+                <hr>
+
+                <div class="summary-row total">
+                    <span>Total</span>
+                    <span>₹1688</span>
+                </div>
+
+                <button type="button">Proceed to Checkout</button>
+            </aside>
+
+        </div>
+    </main>
 </body>
 </html>
