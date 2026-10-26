@@ -2,46 +2,96 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>CSS Design</title>
+    <title>WEBPAGE</title>
 
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-image: url("https://picsum.photos/1200/800");
-            background-size: cover;
-            text-align: center;
-            color: rgb(178, 14, 14);
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url("https://picsum.photos/200/200");
+            background-repeat: repeat;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
 
         h1 {
-            font-family: Georgia, serif;
-            color: rgb(214, 3, 70);
+            color: blue;
+            text-align: center;
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        div {
+            background-color: white;
+            background-image: url("https://picsum.photos/id/1018/400/300");
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 300px;
+            padding: 20px;
+            margin: 15px;
+            border: 2px solid black;
+            border-radius: 10px;
+            text-align: center;
         }
 
         p {
-            font-size: 20px;
-            font-style: italic;
+            color: black;
+            font-size: 18px;
         }
 
-        .box {
-            background-image: url("https://picsum.photos/500/200");
-            background-size: cover;
-            padding: 30px;
-            margin: 50px auto;
-            width: 300px;
-            border: 2px solid white;
+        a {
+            display: inline-block;
+            text-decoration: none;
+            background-color: black;
+            padding: 12px 20px;
+            margin: 8px;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        a:link {
+            color: aqua;
+        }
+
+        a:visited {
+            color: orange;
+        }
+
+        a:hover {
+            color: green;
+            background-color: lightyellow;
+            transform: scale(1.1);
+        }
+
+        a:active {
+            color: red;
+            background-color: white;
         }
     </style>
 </head>
 
 <body>
-    <h1>Welcome to My Web Page</h1>
 
-    <p>This page demonstrates different CSS styles.</p>
+    <h1>STATIC WEBPAGE</h1>
 
-    <div class="box">
-        <h2>CSS Styling</h2>
-        <p>Different fonts, colors and backgrounds!</p>
+    <div>
+        <h2>Explore the Web</h2>
+        <p>
+            This page demonstrates background images,
+            CSS styling.
+        </p>
+
+        <a href="https://www.google.com" target="_blank">
+            Visit Google
+        </a>
+
+        <a href="https://www.wikipedia.org" target="_blank">
+            Visit Wikipedia
+        </a>
     </div>
+
 </body>
 </html>
